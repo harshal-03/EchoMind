@@ -1,0 +1,25 @@
+# Core (the base app uses only the Python 3.9+ standard library:
+# tkinter, sqlite3, urllib, json, threading, etc.)
+
+# Audio processing (required by audio.py for VAD and signal processing)
+numpy
+
+# Optional: offline voice I/O
+vosk
+sounddevice
+pyttsx3
+
+# Optional: faster-whisper (best accuracy STT, alternative to Vosk)
+# pip install faster-whisper
+# Then run: python fetch_stt_model.py
+
+# Optional: resampling for non-16kHz microphones
+# scipy
+
+# Document Q&A (RAG)
+pymupdf
+
+# Optional: Google Calendar integration
+# google-auth
+# google-auth-oauthlib
+# google-api-python-client

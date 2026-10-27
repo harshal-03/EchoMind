@@ -1,0 +1,47 @@
+# ---- Secrets & credentials ----
+.env
+credentials.json
+token.json
+*.pem
+*.key
+
+# ---- Runtime data (created by the app) ----
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Downloaded speech-recognition models (too large for Git) ----
+models/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Audio recordings ----
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
